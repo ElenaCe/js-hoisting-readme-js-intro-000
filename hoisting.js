@@ -15,15 +15,15 @@ function crazy() {
     console.log("hey!!!")
   }
 }
-
 crazy();
-
 function sayMyName() {
   // fix the code in here:
-      var name
-      sayMy();
-      function sayMy() {
-        name = "Kristin"
-        console.log(name);
-      }
+  var name = "Cricky";
+
+  sayMy();
+
+  function sayMy() {
+    console.log(name);
+    var name = "Kristin";
   }
+}
