@@ -20,9 +20,10 @@ crazy();
 
 function sayMyName() {
   // fix the code in here:
-  var name = "Kristin"
+  var name
   sayMy();
   function sayMy(){
+    name = "Kristin"
     console.log(name);
   }
 }
