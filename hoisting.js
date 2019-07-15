@@ -7,10 +7,11 @@ function callMe() {
 
 callMe()
 
+var crazy
 function crazy() {
   // fix the code in here:
-  var thisIsCrazy
-  thisIsCrazy = function (){
+  thisIsCrazy()
+  var thisIsCrazy = function (){
     console.log("hey!!!")
   }
 }
